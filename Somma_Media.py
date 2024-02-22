@@ -1,5 +1,6 @@
 
 #calcola la somma 
+
 import random
 
 lista=[]

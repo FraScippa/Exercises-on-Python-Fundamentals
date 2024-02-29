@@ -34,7 +34,7 @@ array=["Hello", "bye", "good", "nice", "awesome"]
 
 for x in array:
     for y in x:
-        print(y)
+        print(y)"""
 
 
 for x in range(1, 10):
@@ -42,7 +42,7 @@ for x in range(1, 10):
 
 
 
-lista=[5, 12, 8, 3, 10, 9000]
+"""lista=[5, 12, 8, 3, 10, 9000]
 
 ditto=0
 
@@ -59,11 +59,11 @@ s="Python"
 
 for x in range(len(s)-1,-1,-1):   #len: conta partendo da 1 gli elementi nell'array. -1 posizione finale non inclusiva. -1 step per direzionarlo nella parte opposta.
     print(s[x])
-"""
+
 
 x= int(input("inserisci numero: "))
 
 for y in range(1,x):
     x*=y  #moltiplichi x*y ed allo stesso tempo assegna ad x il valore dell'operazione stessa.
     
-print(x)
+print(x)"""

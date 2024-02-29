@@ -17,4 +17,4 @@ y = 23
 for x in range(1, 11):
     print(y*x)    #end=" " : per scriverli tutti nella stessa riga
 
-print(list(map(lambda i: i * 23, v)))  #map? lambda?
+#print(list(map(lambda i: i * 23, v)))  #map? lambda?

@@ -82,7 +82,7 @@ print(generaListaDigit())
 def stringDigitsToList(sd): #sd: parametro formale. Ciò che inserisci "da fuori" (quello che deve essere convertito)
     lista=[]
     for c in sd: 
-        lista.append(int(c))
+        lista.append(int(c)) #int(..) converte in un intero da stringa.
     return lista
 print(stringDigitsToList("98123"))
 

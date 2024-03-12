@@ -73,6 +73,9 @@ def generaListaDigit():
     return lista
 print(generaListaDigit())
 
+#Modificare la GeneraListaDigit per generare una lista di liste del tipo
+#[[0,0,0,0], [0,0,0,1], [0,0,0,2], ..., [9,9,9,8], [9,9,9,9]]
+
 
 
 

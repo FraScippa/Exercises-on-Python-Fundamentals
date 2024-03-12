@@ -77,6 +77,19 @@ print(generaListaDigit())
 #[[0,0,0,0], [0,0,0,1], [0,0,0,2], ..., [9,9,9,8], [9,9,9,9]]
 
 
+#Data una stringa numerica, convertirla in una lista di digit [9,8,1,2,3]
+
+def stringDigitsToList(sd): #sd: parametro formale. Ciò che inserisci "da fuori" (quello che deve essere convertito)
+    lista=[]
+    for c in sd: 
+        lista.append(int(c))
+    return lista
+print(stringDigitsToList("98123"))
+
+        
+
+
+
 
 
     
